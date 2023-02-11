@@ -1,0 +1,33 @@
+.offer {
+  position: relative;
+  height: 30vw;
+  width: 30vw;
+  color: #010101;
+  text-align: center;
+  font-size: 1.3vw;
+  border: 1px solid #e2e8ed;
+  box-shadow: 0 5px #e2e8ed;
+  margin-right: 0.5vw;
+  margin-left: 0.5vw;
+}
+.offer-title {
+  background: rgb(254, 196, 14, 0.6);
+  font-size: 2vw;
+  font-weight: 700;
+  padding: 1vw 2vw;
+  line-height: 100%;
+  margin: 0 0 4vw 0;
+}
+.offer-btn {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  color: white;
+  background-color: #010101;
+  font-size: 1.5vw;
+  font-weight: 700;
+  padding: 0.5vw 5vw;
+}
+.advertises {
+  font-weight: 500;
+}

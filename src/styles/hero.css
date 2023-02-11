@@ -1,0 +1,48 @@
+.hero {
+  background-image: url("../../public/images/slika1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-title {
+  font-weight: 800;
+  color: white;
+  font-size: 5vw;
+  margin: 0;
+  padding: 2vw 7vw 2vw 7vw;
+  text-align: center;
+  line-height: 100%;
+}
+span {
+  padding: 0 2vw;
+  box-shadow: inset 0 -3vw 0 0 #fec40e;
+}
+.hero-description {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 0;
+  padding-inline: 25%;
+  font-size: 1.4vw;
+}
+.hero-btn-wraper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hero-btn {
+  padding: 1vw 3vw;
+  background-color: #fec40e;
+  border-radius: 5px;
+  color: #010101;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 1.3vw;
+  border: 0;
+  margin-top: 2vw;
+}
+.hero-btn:hover {
+  background-color: #8c7119;
+  cursor: pointer;
+}

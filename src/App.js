@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/header";
+import Hero from "./components/hero";
+import OffersWraper from "./components/offersWraper";
+import { BrowserRouter } from "react-router-dom";
+import Packages from "./components/packages";
+import {
+  styleHero,
+  title1,
+  title2,
+  descriptionHero,
+  styleTrick,
+  descriptionTrickOrThreat,
+  imgTrickOrThreat,
+  styleWraper,
+} from "../src/components/utils";
+import TrickOrThreat from "./components/trickOrThreat";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Header />
+        <Hero
+          style={styleHero}
+          title1={title1}
+          title2={title2}
+          description={descriptionHero}
+        />
+        <TrickOrThreat
+          style={styleTrick}
+          description={descriptionTrickOrThreat}
+          img={imgTrickOrThreat}
+        />
+        <OffersWraper style={styleWraper} />
+        <Packages style={styleWraper} />
+      </BrowserRouter>
     </div>
   );
 }
