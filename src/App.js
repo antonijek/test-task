@@ -3,9 +3,9 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import OffersWraper from "./components/offersWraper";
 import { BrowserRouter } from "react-router-dom";
-import Packages from "./components/packages";
-import { Coments, Coment } from "./components/coments";
-import { ThreeCards, Card } from "./components/threeCards";
+import { Packages } from "./components/packages";
+import { Coments } from "./components/coments";
+import { ThreeCards } from "./components/threeCards";
 import {
   styleHero,
   title1,
@@ -38,6 +38,7 @@ function App() {
 
         <Coments />
         <ThreeCards />
+        <Packages />
       </BrowserRouter>
     </div>
   );

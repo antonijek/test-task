@@ -54,3 +54,34 @@ export const comentOccupation1 = `Appsumo Verifed Purchaser`;
 export const cardText1 = `Be available to local clients and expand your business in new markets.`;
 export const cardText2 = `The fastest way for direct, no monthly fees and without going to the bank.`;
 export const cardText3 = `If you need additional assistance, check the Help Center or connect vith us via Laganoo chat.`;
+
+export const list1 = [
+  "Up to 3 pages",
+  "Up to 350 products",
+  "Choose from 3 templates",
+  "3 licensed photos included",
+  "Inventory tracking",
+  "Low stock notification",
+  "Sell on Facebook, Instragram and Tick tok",
+  "Multiple app integration",
+  "Limited support",
+];
+export const list2 = [
+  "Up to 5 pages",
+  "Up to 1500 products",
+  "Choose from 5 templates",
+  "5 licensed photos included",
+  "Sell on Amazon and others market places",
+  "Product menagmet filters",
+  "Automatic abandoned cart recovery",
+  "Mobile store menagment app",
+  "Live chat support",
+];
+export const list3 = [
+  "Up to 10 pages",
+  "Unlimited products",
+  "Choose from 10 templates",
+  "10 licensed photos included",
+  "Castom branded mobile app for store (anual payment)",
+  "Priority support",
+];

@@ -16,7 +16,7 @@ const Popup = ({ setIsOpen }) => {
       </div>
       <div className="popup-container">
         <div>
-          <h2>NEW YEAR, NEW SAVINGS</h2>
+          <h2 className="popup-title">NEW YEAR, NEW SAVINGS</h2>
           <p className="popup-discount">
             <span>50% OFF</span>
           </p>
@@ -33,7 +33,9 @@ const Popup = ({ setIsOpen }) => {
             Offer valid from February 1, 2023 to February 1,2025
           </p>
           <h2 className="offer-dont-miss">DON'T MISS OUT!</h2>
-          <h3>ENJOY LONG-TERM SAVINGS WIDTH OUR INCREDIBLE DEAL</h3>
+          <h3 className="subtitle-enjoy">
+            ENJOY LONG-TERM SAVINGS WIDTH OUR INCREDIBLE DEAL
+          </h3>
         </div>
       </div>
     </div>

@@ -1,0 +1,72 @@
+.packages {
+  margin-left: 10%;
+  text-align: center;
+}
+
+.bird-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.package {
+  width: 25vw;
+  padding-top: 2vw;
+  border-radius: 5px;
+  position: relative;
+  text-align: left;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  position: relative;
+}
+
+.old-price {
+  font-size: 3vw;
+  font-weight: 700;
+  text-decoration: red line-through;
+  margin-right: 0.5vw;
+}
+
+.new-price {
+  font-size: 3vw;
+  font-weight: 700;
+  color: #fec40e;
+}
+.three-packages {
+  display: flex;
+}
+.package-name {
+  font-weight: 600;
+  font-size: 2vw;
+}
+.hr {
+  width: 50%;
+  margin: 0;
+  text-align: left;
+}
+.list1-container {
+  display: flex;
+  margin: 0;
+}
+
+.btn-apply {
+  margin: 1vw;
+  padding: 0.5vw 5vw;
+  background-color: #010101;
+  color: white;
+  font-size: 1.2vw;
+  border-radius: 5px;
+}
+.btn-apply-wraper {
+  position: absolute;
+  height: 10vw;
+  top: 100%;
+}
+.bird-container-down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+  width: 90%;
+}
+.tric-img-dark {
+  width: 15%;
+}
