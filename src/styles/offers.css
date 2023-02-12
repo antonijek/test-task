@@ -2,9 +2,19 @@
   display: flex;
   justify-content: center;
   position: relative;
+  box-sizing: border-box;
 }
 .two-birds {
   position: absolute;
   left: 0;
   top: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  .offers {
+    box-sizing: border-box;
+    display: block;
+    margin-left: 10%;
+    margin-bottom: 10vw;
+  }
 }

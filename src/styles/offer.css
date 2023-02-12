@@ -10,6 +10,7 @@
   margin-right: 1vw;
   margin-left: 1vw;
   margin-top: 8vw;
+  box-sizing: border-box;
 }
 .offer-title {
   background: #fec40e;
@@ -28,7 +29,33 @@
   font-size: 1.5vw;
   font-weight: 700;
   padding: 0.5vw 5vw;
+  text-decoration: none;
 }
 .advertises {
   font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  .offer {
+    box-sizing: border-box;
+    font-size: 2vw;
+    margin-top: 8vw;
+    width: 80vw;
+    height: 80vw;
+  }
+  .offer-title {
+    font-size: 5vw;
+    padding: 5vw 15vw;
+  }
+  .offer-btn {
+    margin-top: 150px;
+    position: static;
+    padding: 2vw 15vw;
+    font-size: 3vw;
+  }
+  .advertises {
+    font-weight: 600;
+    font-size: 3vw;
+    padding: 0 2vw;
+    margin-bottom: 8vw;
+  }
 }

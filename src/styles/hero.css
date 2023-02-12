@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  box-sizing: border-box;
 }
 
 .hero-title {
@@ -45,4 +46,13 @@
 .hero-btn:hover {
   background-color: #8c7119;
   cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .hero-description {
+    display: none;
+  }
+
+  .hero-btn {
+    display: none;
+  }
 }

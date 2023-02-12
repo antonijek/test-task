@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/header.css";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const navbarTabs = [
   "Sell",
@@ -26,6 +27,9 @@ const Header = () => {
 
         <button className="btn-login">LOGIN</button>
       </nav>
+      <div className="hamburger">
+        <MenuIcon />
+      </div>
     </div>
   );
 };

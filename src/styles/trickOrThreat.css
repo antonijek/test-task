@@ -16,3 +16,19 @@
   top: 45%;
   overflow: hidden;
 }
+@media screen and (max-width: 600px) {
+  .transparent-text {
+    position: relative;
+    margin-top: 20%;
+    left: 50%;
+    display: none;
+
+    opacity: 1;
+    width: 90%;
+    padding: 2vw 5vw;
+  }
+  .img-trick {
+    width: 20%;
+    height: 50%;
+  }
+}

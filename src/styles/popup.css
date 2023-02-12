@@ -58,3 +58,59 @@
   font-weight: 600;
   margin: 0;
 }
+@media screen and (max-width: 600px) {
+  .popup {
+    width: 90%;
+  }
+  .logo-popup {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vw;
+  }
+  .popup-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .popup-discount {
+    color: #fec40e;
+    font-size: 8.5vw;
+    margin: 0.5vw;
+    font-weight: bold;
+    padding: 0 5vw;
+  }
+  .popup-container span {
+    padding: 0 3vw;
+    box-shadow: inset 0 -10vw 0 0 #010101;
+  }
+  .popup-title {
+    font-size: 6vw;
+    padding: 0 10vw;
+    font-weight: 800;
+    margin-bottom: 10vw;
+  }
+
+  .offer-expire {
+    font-weight: 700;
+    font-size: 2.5vw;
+    margin-top: 0;
+  }
+  .offer-dont-miss {
+    color: #fec40e;
+    width: 100%;
+    font-size: 6vw;
+  }
+
+  .close-popup {
+    background-color: #fec40e;
+    color: #010101;
+    font-weight: bold;
+  }
+  .subtitle-enjoy {
+    font-size: 4vw;
+    padding: 0 15%;
+    font-weight: 600;
+    margin: 0;
+  }
+}

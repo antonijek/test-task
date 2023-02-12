@@ -2,13 +2,15 @@ import { React, useState } from "react";
 import Popup from "./popup";
 import "../styles/hero.css";
 
-const Hero = ({ style, title1, title2, description }) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const openPopup = () => {
-    setIsOpen(true);
-  };
-
+const Hero = ({
+  isOpen,
+  setIsOpen,
+  openPopup,
+  style,
+  title1,
+  title2,
+  description,
+}) => {
   return (
     <div style={style}>
       {isOpen && <Popup setIsOpen={setIsOpen} />}

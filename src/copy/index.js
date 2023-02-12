@@ -7,8 +7,8 @@ export const styleHero = {
 export const title1 = "Scare off your competition";
 export const title2 = "this Halloween!";
 
-export const descriptionHero = `Alarmingly quick ecommerce solution for your bisiness! Simple
-  website creation, easy online store menagement from one place. Secure
+export const descriptionHero = `Alarmingly quick ecommerce solution for your bisiness!
+ Simple website creation, easy online store menagement from one place. Secure
   online payment solution without processing fees.`;
 
 export const styleTrick = {
@@ -19,16 +19,26 @@ export const styleTrick = {
   backgroundRepeat: "no-repeat",
   position: "relative",
 };
-export const descriptionTrickOrThreat = `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia enim fugiat, reiciendis accusantium quo nisi ab voluptatum eligendi repellat fuga nihil dolores molestias nesciunt assumenda repellendus, nostrum modi placeat ex similique quae tempore laudantium, officia temporibus quidem? Repellendus est commodi beatae a officiis nulla iusto officia consequuntur molestiae, fugiat eos inventore perferendis ducimus libero incidunt nihil sit et velit animi? Pariatur adipisci vitae fugit eveniet labore earum animi cumque voluptatum. Modi sapiente veritatis mollitia in.`;
+export const descriptionTrickOrThreat = `Holidays such as Halloween are a time when customers take extra interest in their favorite products, because businesses promote their brand by offering special discounts during that period. Most of your clients are on the Internet and are expecting a discount deal, so that they canorder their favorite product for a special price.
+
+That's why many businesses today look for an ideal ecommerce solution that will allow them quick access and simple management of online sales. Is your brand presented on the internet? Laganoo offers alarmingly good packages for your business.`;
 export const imgTrickOrThreat = "../../images/vizual1.svg";
 
 export const styleWraper = {
-  width: "100%",
+  // width: "100%",
   backgroundImage: `url("../../images/slika3.png")`,
   backgroundRepeat: "no-repeat",
-  height: "45vw",
+
+  backgroundSize: "contain",
+  position: "relative",
+};
+export const styleWraperMobile = {
+  backgroundImage: `url("../../images/slika3.png")`,
+  backgroundRepeat: "no-repeat",
+  height: "auto",
   backgroundSize: "contain",
 };
+
 export const firstOfertitle = `Free upgrade to upper plan`;
 export const firstOfertitlep1 = `Website builder`;
 export const firstOfertitlep2 = `Use Advanced for a price of Basic plan`;
@@ -85,3 +95,5 @@ export const list3 = [
   "Castom branded mobile app for store (anual payment)",
   "Priority support",
 ];
+
+export const contact = `Whether you want to create an online store yourself, want a website created by our team, or implement the online payment solution, contact us and get a discount code for the package tailored to your business.`;

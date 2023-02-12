@@ -1,6 +1,7 @@
 .packages {
   margin-left: 10%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .bird-container {

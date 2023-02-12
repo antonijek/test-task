@@ -21,7 +21,7 @@
 }
 .just-two-birds {
   position: absolute;
-  left: 85%;
+  left: 75%;
   top: 5%;
 }
 .grey-bird {
@@ -37,6 +37,7 @@
 .card-title {
   padding: 0 3vw;
   margin-bottom: 3vw;
+  font-size: 2vw;
 }
 
 .text {
@@ -48,4 +49,54 @@
 .card-text {
   padding: 0 1vw;
   font-weight: 500;
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 600px) {
+  .cards {
+    box-sizing: border-box;
+    padding: 8vw 4vw;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .card {
+    background-color: #fec40e;
+    height: 50vw;
+    width: 80vw;
+    padding: 1vw;
+    margin: 2vw auto;
+  }
+  .just-two-birds {
+    position: absolute;
+    left: 55%;
+    top: 0;
+  }
+  .grey-bird {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .pumpkins {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+  }
+  .card-title {
+    padding: 0 3vw;
+    margin-bottom: 3vw;
+    font-size: 5vw;
+  }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+  }
+  .card-text {
+    font-weight: 500;
+    font-size: 3vw;
+    padding: 0 2vw;
+  }
 }

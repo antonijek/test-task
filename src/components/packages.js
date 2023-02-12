@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/packages.css";
 import { list1, list2, list3 } from "../copy/index";
+import { Link } from "react-router-dom";
 
 export const Packages = () => {
   return (

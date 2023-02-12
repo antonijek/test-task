@@ -13,9 +13,9 @@ import {
   secondOfertitlep2,
   secondOfertitlep3,
 } from "../copy/index";
-const Offers = () => {
+const Offers = ({ style }) => {
   return (
-    <div className="offers">
+    <div style={style} className="offers">
       <Offer
         title={firstOfertitle}
         text1={firstOfertitlep1}

@@ -1,0 +1,31 @@
+.mobile-text {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-text {
+    display: block;
+  }
+  .hero-descript {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 0;
+    padding-inline: 5%;
+    font-size: 3.5vw;
+  }
+  .hero-button {
+    padding: 1vw 5vw;
+    background-color: #fec40e;
+    border-radius: 5px;
+    color: #010101;
+    font-weight: 900;
+    font-size: 3vw;
+    border: 0;
+    margin: 2vw 0 10vw;
+    text-align: center;
+  }
+  .scare-button {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,13 @@
+.grey-text {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .grey-text {
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    color: #010101;
+    padding: 2vw 5vw;
+    font-size: 3.5vw;
+  }
+}
