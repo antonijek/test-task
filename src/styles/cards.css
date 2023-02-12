@@ -1,0 +1,51 @@
+.cards {
+  box-sizing: border-box;
+  padding: 8vw 4vw;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.card {
+  background-color: #fec40e;
+  height: 20vw;
+  width: 30vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
+  text-align: center;
+  padding-top: 2vw;
+  border-radius: 5px;
+  position: relative;
+}
+.just-two-birds {
+  position: absolute;
+  left: 85%;
+  top: 5%;
+}
+.grey-bird {
+  position: absolute;
+  left: 0;
+  top: 5%;
+}
+.pumpkins {
+  position: absolute;
+  left: 2%;
+  top: 70%;
+}
+.card-title {
+  padding: 0 3vw;
+  margin-bottom: 3vw;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+}
+.card-text {
+  padding: 0 1vw;
+  font-weight: 500;
+}

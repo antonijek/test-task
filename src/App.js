@@ -4,6 +4,8 @@ import Hero from "./components/hero";
 import OffersWraper from "./components/offersWraper";
 import { BrowserRouter } from "react-router-dom";
 import Packages from "./components/packages";
+import { Coments, Coment } from "./components/coments";
+import { ThreeCards, Card } from "./components/threeCards";
 import {
   styleHero,
   title1,
@@ -13,7 +15,7 @@ import {
   descriptionTrickOrThreat,
   imgTrickOrThreat,
   styleWraper,
-} from "../src/components/utils";
+} from "../src/copy/index";
 import TrickOrThreat from "./components/trickOrThreat";
 
 function App() {
@@ -33,7 +35,9 @@ function App() {
           img={imgTrickOrThreat}
         />
         <OffersWraper style={styleWraper} />
-        <Packages style={styleWraper} />
+
+        <Coments />
+        <ThreeCards />
       </BrowserRouter>
     </div>
   );

@@ -14,7 +14,7 @@
   text-align: center;
   line-height: 100%;
 }
-span {
+.yellow-shadow {
   padding: 0 2vw;
   box-shadow: inset 0 -3vw 0 0 #fec40e;
 }

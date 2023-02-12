@@ -1,14 +1,14 @@
 import React from "react";
 import "../styles/offer.css";
 
-const Offer = ({ title, p1, p2, p3, p4 }) => {
+const Offer = ({ title, text1, text2, text3, text4 }) => {
   return (
     <div className="offer">
       <p className="offer-title">{title}</p>
-      <p className="advertises">{p1}</p>
-      <p className="advertises">{p2}</p>
-      <p className="advertises">{p3}</p>
-      <p className="advertises">{p4}</p>
+      <p className="advertises">{text1}</p>
+      <p className="advertises">{text2}</p>
+      <p className="advertises">{text3}</p>
+      <p className="advertises">{text4}</p>
       <button className="offer-btn">See the offer</button>
     </div>
   );

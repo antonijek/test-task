@@ -13,7 +13,8 @@ const Hero = ({ style, title1, title2, description }) => {
     <div style={style}>
       {isOpen && <Popup setIsOpen={setIsOpen} />}
       <p className="hero-title">
-        <span>{title1}</span> <span>{title2} </span>
+        <span className="yellow-shadow">{title1}</span>{" "}
+        <span className="yellow-shadow">{title2} </span>
       </p>
       <p className="hero-description">{description}</p>
       <div className="hero-btn-wraper">
