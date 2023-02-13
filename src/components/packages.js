@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/packages.css";
 import { list1, list2, list3 } from "../copy/index";
-import { Link } from "react-router-dom";
 
 export const Packages = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="packages">
       <div className="bird-container">
-        <div className="right-birds">
-          <img src="../images/vizual2.png" alt="" />
+        <div>
+          <img className="right-birds" src="../images/vizual2.png" alt="" />
         </div>
         <div className="left-birds">
           <img src="../images/vizual2.png" alt="" />
@@ -19,7 +22,6 @@ export const Packages = () => {
         <h3>50% discount on website creation</h3>
       </div>
       <div className="three-packages">
-        {" "}
         <Package
           list={list1}
           name="Basic"
@@ -46,11 +48,11 @@ export const Packages = () => {
         />
       </div>
       <div className="bird-container-down">
-        <div>
+        <div className="bird">
           <img src="../images/vizual2.png" alt="" />
         </div>
         <div>
-          <img src="../images/vizual2.png" alt="" />
+          <img className="bird-down" src="../images/vizual2.png" alt="" />
         </div>
       </div>
       <div className="tric-img-dark">

@@ -69,8 +69,8 @@
   }
   .just-two-birds {
     position: absolute;
-    left: 55%;
-    top: 0;
+    left: 40%;
+    top: -10vw;
   }
   .grey-bird {
     position: absolute;
@@ -79,7 +79,7 @@
   }
   .pumpkins {
     position: absolute;
-    left: 50%;
+    left: 40%;
     top: 90%;
   }
   .card-title {

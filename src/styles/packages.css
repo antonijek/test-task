@@ -71,3 +71,68 @@
 .tric-img-dark {
   width: 15%;
 }
+@media screen and (max-width: 600px) {
+  .packages {
+    margin-left: 0;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .three-packages {
+    display: block;
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+  .package {
+    width: 80%;
+    padding: 6vw 3vw;
+    border-radius: 5px;
+    position: relative;
+    text-align: left;
+    box-shadow: 0 5px #e2e8ed;
+    height: auto;
+    border: 2px solid #e2e8ed;
+    margin: auto auto;
+  }
+  .old-price {
+    font-size: 6vw;
+  }
+  .new-price {
+    font-size: 6vw;
+  }
+  .package-name {
+    font-size: 4vw;
+  }
+  .btn-apply {
+    margin-top: 2vw;
+    padding: 1vw 20vw;
+    background-color: #010101;
+    color: white;
+    font-size: 4vw;
+    border-radius: 5px;
+    font-weight: 700;
+  }
+  .btn-apply-wraper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .left-birds {
+    display: none;
+  }
+  .bird {
+    display: none;
+  }
+  .tric-img-dark {
+    width: 30%;
+  }
+  .bird-down {
+    width: 50%;
+    margin-top: 50%;
+  }
+  .right-birds {
+    width: 50%;
+    margin-left: 100%;
+  }
+}

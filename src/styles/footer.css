@@ -1,0 +1,50 @@
+.footer {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: block;
+  }
+
+  .footer-container {
+    display: flex;
+    padding: 5vw;
+    color: #010101;
+  }
+  .footer-container p {
+    margin: 0;
+    font-size: 4vw;
+  }
+  .footer-container h2 {
+    font-size: 6vw;
+  }
+
+  .social-networks {
+    display: flex;
+    width: 50%;
+    align-items: center;
+  }
+
+  .social-network {
+    width: 70%;
+    height: 80%;
+    margin: 0 1vw;
+  }
+  .medias {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 3vw;
+  }
+  .btn-login {
+    background-color: #fec40e;
+    padding: 2vw 8vw;
+    color: #010101;
+    display: inline-block;
+    font-size: 5vw;
+  }
+  .copyright {
+    text-align: center;
+    font-size: 4vw;
+  }
+}
